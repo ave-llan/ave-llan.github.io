@@ -1,0 +1,21 @@
+.wrapping-collection {
+     display: flex;
+     flex-wrap: wrap;
+
+     .music-album {
+        padding: 1rem;
+
+        img.cover-art {
+          width:  250px;
+          height: auto;
+        }
+
+        .album-info {
+            text-align: center;
+            .artist {
+                color: #bbb;
+            }
+        }
+     }
+}
+

@@ -9,7 +9,13 @@
     {
         "title": "Agamgam 2004",
         "artist": "Bombino",
-        "composer": "Bombino",
         "coverArtUrl": "/assets/album_covers/bombino_agamgam_2004.jpg"
+    },
+
+    {
+        "title": "Nomad",
+        "artist": "Bombino",
+        "coverArtUrl": "/assets/album_covers/bombino_nomad.jpg"
     }
+    
 ]
