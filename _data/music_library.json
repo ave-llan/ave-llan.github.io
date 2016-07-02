@@ -16,6 +16,25 @@
         "title": "Nomad",
         "artist": "Bombino",
         "coverArtUrl": "/assets/album_covers/bombino_nomad.jpg"
-    }
+    },
+
+    {
+        "title": "Middle Cyclone",
+        "artist": "Neko Case",
+        "coverArtUrl": "/assets/album_covers/neko_case_middle_cyclone.png"
+    },
+
+    {
+        "title": "Blacklisted",
+        "artist": "Neko Case",
+        "coverArtUrl": "/assets/album_covers/neko_case_blacklisted.jpg"
+    },
+
+    {
+        "title": "Furnace Room Lullaby",
+        "artist": "Neko Case",
+        "coverArtUrl": "/assets/album_covers/neko_case_furnace_room.jpg"
+    },
+
     
 ]

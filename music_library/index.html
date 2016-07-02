@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div class="wrapping-collection">
+
     {% for album in site.data.music_library %}
+
         <div class="music-album">
             <img src="{{album.coverArtUrl}}" alt="{{ album.title }} cover art" class="cover-art">
             <div class="album-info">
@@ -15,18 +17,7 @@ layout: default
                 </div>
             </div>
         </div>
+        
     {% endfor %}
+
 </div>
-
-<!-- <ul>
-{% for album in site.data.music_library %}
-  <li>
-    <p>
-        {{ album.title }} by {{ album.artist }}
-    </p>
-  </li>
-  <img src="{{album.coverArtUrl}}" alt="{{ album.title }} cover art">
-
-{% endfor %}
-</ul>
- -->
