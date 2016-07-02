@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<ul>
+{% for album in site.data.music_library %}
+  <li>
+    <p>
+        {{ album.title }} by {{ album.artist }}
+    </p>
+  </li>
+  <img src="{{album.coverArtUrl}}">
+
+{% endfor %}
+</ul>
