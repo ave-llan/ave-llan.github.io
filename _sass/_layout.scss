@@ -5,18 +5,19 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    padding: 2rem;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 1.5rem;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 1rem;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    text-align: center;
 
     &,
     &:visited {
@@ -25,8 +26,9 @@
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
+    width: 50%;
+    margin: 0 auto; 
 
     .menu-icon {
         display: none;
@@ -35,6 +37,11 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+
+        &:hover {
+        color: lighten($brand-color, 15%);
+        text-decoration: none
+        }
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
