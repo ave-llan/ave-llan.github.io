@@ -56,7 +56,14 @@
 
     {
         "title": "Bali: Gamelan & Kecak",
-        "coverArtUrl": "/assets/album_covers/bali_gamelon_and_kecak.jpg"
+        "coverArtUrl": "/assets/album_covers/bali_gamelon_and_kecak.jpg",
+        "link": "http://www.nonesuch.com/albums/bali-gamelan-kecak"
+    },
+
+    {
+        "title": "Dowland: Songs Book I & Book II",
+        "coverArtUrl": "/assets/album_covers/dowland_songs.jpg",
+        "artist": "Paul Agnew"
     },
     
 
