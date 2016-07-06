@@ -1,12 +1,13 @@
 .wrapping-collection {
      display: flex;
      flex-wrap: wrap;
+     justify-content: center;
 
      .music-album {
         padding: 1rem;
 
         img.cover-art {
-          width:  350px;
+          width:  250px;
           height: auto;
         }
 

@@ -1,5 +1,26 @@
 ---
 title: Library
 permalink: /library/
+layout: page
 order: 3
 ---
+
+<div class="wrapping-collection">
+
+    {% for album in site.data.music_library %}
+
+        <div class="music-album">
+            <img src="{{album.coverArtUrl}}" alt="{{ album.title }} cover art" class="cover-art">
+            <div class="album-info">
+                <div class="title">
+                    {{ album.title}}
+                </div>
+                <div class="artist">
+                    {{ album.artist }}
+                </div>
+            </div>
+        </div>
+        
+    {% endfor %}
+
+</div>
