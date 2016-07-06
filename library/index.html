@@ -15,12 +15,14 @@ order: 3
                 <div class="title">
                     {{ album.title}}
                 </div>
+                {% if album.artist %}
                 <div class="artist">
                     {{ album.artist }}
                 </div>
+                {% endif %}
             </div>
         </div>
         
     {% endfor %}
 
-</div>
+</div>  

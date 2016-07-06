@@ -36,5 +36,28 @@
         "coverArtUrl": "/assets/album_covers/neko_case_furnace_room.jpg"
     },
 
+    {
+        "title": "Odetta Sings Dylan",
+        "artist": "Odetta",
+        "coverArtUrl": "/assets/album_covers/odetta_sings_dylan.jpg"
+    },
+
+    {
+        "title": "Do Wrong Right",
+        "artist": "The Devil Makes Three",
+        "coverArtUrl": "/assets/album_covers/do_wrong_rigth_devil_makes_three.jpg"
+    },
+
+    {
+        "title": "I'm a Stranger Here",
+        "artist": "The Devil Makes Three",
+        "coverArtUrl": "/assets/album_covers/stranger_here_devil_makes_three.jpg"
+    },
+
+    {
+        "title": "Bali: Gamelan & Kecak",
+        "coverArtUrl": "/assets/album_covers/bali_gamelon_and_kecak.jpg"
+    },
     
+
 ]
