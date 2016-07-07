@@ -158,11 +158,19 @@ pre {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    
+    &.narrow {
+        max-width: -webkit-calc(#{$narrow-content-width} - (#{$spacing-unit} * 2));
+        max-width:         calc(#{$narrow-content-width} - (#{$spacing-unit} * 2));
+    }
+
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
+
+
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
