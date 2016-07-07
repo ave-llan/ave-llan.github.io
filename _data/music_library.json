@@ -19,6 +19,12 @@
     },
 
     {
+        "title": "Cima Verde",
+        "coverArtUrl": "/assets/album_covers/chris_watson_cima_verde.jpg",
+        "artist": "Chris Watson"
+    },
+
+    {
         "title": "Middle Cyclone",
         "artist": "Neko Case",
         "coverArtUrl": "/assets/album_covers/neko_case_middle_cyclone.png"
@@ -64,7 +70,7 @@
         "title": "Dowland: Songs Book I & Book II",
         "coverArtUrl": "/assets/album_covers/dowland_songs.jpg",
         "artist": "Paul Agnew"
-    },
+    }
     
 
 ]
