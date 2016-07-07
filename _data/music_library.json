@@ -3,86 +3,100 @@
         "title": "Purcell: The Food of Love",
         "artist": "Paul Agnew",
         "composer": "Henry Purcell",
-        "coverArtUrl": "/assets/album_covers/purcell_food_of_love.jpg"
+        "coverArtUrl": "/assets/album_covers/purcell_food_of_love.jpg",
+        "genre": "concert"
     },
 
     {
         "title": "Agamgam 2004",
         "artist": "Bombino",
-        "coverArtUrl": "/assets/album_covers/bombino_agamgam_2004.jpg"
+        "coverArtUrl": "/assets/album_covers/bombino_agamgam_2004.jpg",
+        "genre": "popular"
     },
 
     {
         "title": "Nomad",
         "artist": "Bombino",
-        "coverArtUrl": "/assets/album_covers/bombino_nomad.jpg"
+        "coverArtUrl": "/assets/album_covers/bombino_nomad.jpg",
+        "genre": "popular"
     },
 
     {
         "title": "Cima Verde",
         "coverArtUrl": "/assets/album_covers/chris_watson_cima_verde.jpg",
-        "artist": "Chris Watson"
+        "artist": "Chris Watson",
+        "genre": "popular"
     },
 
     {
         "title": "Middle Cyclone",
         "artist": "Neko Case",
-        "coverArtUrl": "/assets/album_covers/neko_case_middle_cyclone.png"
+        "coverArtUrl": "/assets/album_covers/neko_case_middle_cyclone.png",
+        "genre": "popular"
     },
 
     {
         "title": "Blacklisted",
         "artist": "Neko Case",
-        "coverArtUrl": "/assets/album_covers/neko_case_blacklisted.jpg"
+        "coverArtUrl": "/assets/album_covers/neko_case_blacklisted.jpg",
+        "genre": "popular"
     },
 
     {
         "title": "Furnace Room Lullaby",
         "artist": "Neko Case",
-        "coverArtUrl": "/assets/album_covers/neko_case_furnace_room.jpg"
+        "coverArtUrl": "/assets/album_covers/neko_case_furnace_room.jpg",
+        "genre": "popular"
     },
 
     {
         "title": "Odetta Sings Dylan",
         "artist": "Odetta",
-        "coverArtUrl": "/assets/album_covers/odetta_sings_dylan.jpg"
+        "coverArtUrl": "/assets/album_covers/odetta_sings_dylan.jpg",
+        "genre": "popular"
     },
 
     {
         "title": "Do Wrong Right",
         "artist": "The Devil Makes Three",
-        "coverArtUrl": "/assets/album_covers/do_wrong_rigth_devil_makes_three.jpg"
+        "coverArtUrl": "/assets/album_covers/do_wrong_rigth_devil_makes_three.jpg",
+        "genre": "popular"
     },
 
     {
         "title": "I'm a Stranger Here",
         "artist": "The Devil Makes Three",
-        "coverArtUrl": "/assets/album_covers/stranger_here_devil_makes_three.jpg"
+        "coverArtUrl": "/assets/album_covers/stranger_here_devil_makes_three.jpg",
+        "genre": "popular"
     },
 
     {
         "title": "Bali: Gamelan & Kecak",
         "coverArtUrl": "/assets/album_covers/bali_gamelon_and_kecak.jpg",
-        "link": "http://www.nonesuch.com/albums/bali-gamelan-kecak"
+        "link": "http://www.nonesuch.com/albums/bali-gamelan-kecak",
+        "genre": "popular"
     },
 
     {
         "title": "Dowland: Songs Book I & Book II",
         "coverArtUrl": "/assets/album_covers/dowland_songs.jpg",
-        "artist": "Paul Agnew"
+        "artist": "Paul Agnew",
+        "genre": "concert"
     },
 
     {
         "title": "Stockhausen: Stimmung",
         "coverArtUrl": "/assets/album_covers/hillier_stimmung.jpg",
-        "artist": "Theatre of Voices / Paul Hillier"
+        "artist": "Theatre of Voices / Paul Hillier",
+        "genre": "concert"
     },
 
     {
         "title": "Morning Phase",
         "coverArtUrl": "/assets/album_covers/beck_morning_phase.jpg",
-        "artist": "Beck"
-    }
+        "artist": "Beck",
+        "genre": "popular"
+    },
     
 
 ]
