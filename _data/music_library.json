@@ -70,6 +70,12 @@
         "title": "Dowland: Songs Book I & Book II",
         "coverArtUrl": "/assets/album_covers/dowland_songs.jpg",
         "artist": "Paul Agnew"
+    },
+
+    {
+        "title": "Stockhausen: Stimmung",
+        "coverArtUrl": "/assets/album_covers/hillier_stimmung.jpg",
+        "artist": "Theatre of Voices / Paul Hillier"
     }
     
 
