@@ -76,6 +76,12 @@
         "title": "Stockhausen: Stimmung",
         "coverArtUrl": "/assets/album_covers/hillier_stimmung.jpg",
         "artist": "Theatre of Voices / Paul Hillier"
+    },
+
+    {
+        "title": "Morning Phase",
+        "coverArtUrl": "/assets/album_covers/beck_morning_phase.jpg",
+        "artist": "Beck"
     }
     
 
