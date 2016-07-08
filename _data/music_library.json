@@ -97,6 +97,13 @@
         "artist": "Beck",
         "genre": "popular"
     },
+
+    {
+        "title": "Debussy: La Mer",
+        "coverArtUrl": "/assets/album_covers/debussy_la_mer.jpg",
+        "artist": "Berliner Philharmoniker / Simon Rattle",
+        "genre": "concert"
+    },
     
 
 ]
