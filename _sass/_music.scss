@@ -18,3 +18,27 @@ h1.music-header {
     font-weight: 300;
     border-bottom: 1px dashed lighten($brand-color, 10%);
 }
+
+div.composition-title {
+
+  margin-bottom: 2.2em;
+  text-align: center;
+  letter-spacing: 0.1em;
+  h1 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 0;
+  }
+
+  p {
+    // margin-left: 1.33em;
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 200;
+    // color: $grey-color;
+  }
+}
+
+div.program-note {
+  margin-bottom: 2rem;
+}

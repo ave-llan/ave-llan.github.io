@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-<div class="wrapper">
-    <div class="title">
+<div class="wrapper narrow">
+    <div class="composition-title">
         <h1>{{ page.title }}</h1>
         <p>for {{  page.ensemble }}</p>
     </div>
-    <div id="programNote">
-        <h1>About</h1>
+    <div class="program-note">
         <p>
             {{ page.content }}
         </p>
@@ -15,13 +14,13 @@ layout: default
     </div>
 
     <div class="score">
-        <h1>Score</h1>
+        <h1 class="music-header">Score</h1>
         <p>
             <a href="../sample-scores/scherzo-a-la-britten.pdf" target="_blank">Scherzo &agrave la Britten sample score (PDF) </a>
         </p>
     </div>
     <div class="recording">
-        <h1>Recording</h1>
+        <h1 class="music-header">Recording</h1>
         <audio src="../audio/scherzo-a-la-britten.mp3" controls></audio>
         <ul>
             <li>US Navy Band, <a href="http://amzn.to/11bz6XA" target="_blank">Derivations</a> (2012) </li>
@@ -29,7 +28,7 @@ layout: default
         </ul>
     </div>
     <div class="instrumentation">
-        <h1>Instrumentation</h1>
+        <h1 class="music-header">Instrumentation</h1>
         <ul>
             <li>Piccolo</li>
             <li>2 Flutes</li>
