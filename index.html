@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div class="wrapper wide">
-  <counterpoint first-note='D4' mode="minor" max-length='13' notes='D4 E4 F4 C4 D4 F4 E4 G4 Bb3 C4 F4 E4 D4'></counterpoint>
+  {% assign cantus_firmi = site.data.cantus_firmi  %}
+  {% assign cf = cantus_firmi[0] %}
+  <counterpoint first-note="{{cf.firstNote}}" mode="{{cf.mode}}" max-length="{{cf.maxLength}}" notes="{{cf.notes}}"></counterpoint>
 </div>
 
 <script type="text/javascript">

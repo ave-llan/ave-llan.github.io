@@ -1,0 +1,20 @@
+[
+  {
+    "mode": "minor",
+    "firstNote": "D4",
+    "maxLength": 13,
+    "notes": "D4 E4 F4 C4 D4 F4 E4 G4 Bb3 C4 F4 E4 D4"
+  },
+  {
+    "mode": "major",
+    "firstNote": "G4",
+    "maxLength": 9,
+    "notes": "G4 E5 D5 F#5 G5 B4 C5 A4 G4"
+  },
+  {
+    "mode": "minor",
+    "firstNote": "C4",
+    "maxLength": 9,
+    "notes": "C4 G4 F4 G4 Ab4 Eb4 F4 D4 C4"
+  }
+]
