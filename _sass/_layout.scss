@@ -23,7 +23,6 @@
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1rem;
-    letter-spacing: -1px;
     margin-bottom: 0;
     text-align: center;
 }
@@ -44,6 +43,7 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+        color: lighten($text-color, 30%);
     }
 
     @include media-query($on-palm) {
