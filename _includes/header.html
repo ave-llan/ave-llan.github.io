@@ -6,15 +6,12 @@
       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </div>
 
-    <div>
+    <div class="nav-container">
       <nav class="site-nav">
-
-        <div class="trigger">
-          {{ site.baseurl }}
-          {% for page_title in site.data.nav %}
-            <a class="page-link" href="/{{ page_title }}">{{ page_title | capitalize }}</a>
-          {% endfor %}
-        </div>
+        {{ site.baseurl }}
+        {% for page_title in site.data.nav %}
+          <a class="page-link" href="/{{ page_title }}">{{ page_title | capitalize }}</a>
+        {% endfor %}
       </nav>
     </div>
 
