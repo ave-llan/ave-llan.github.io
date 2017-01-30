@@ -5,11 +5,13 @@
 
      .music-album {
         padding: 1rem;
+        width:  250px;
 
         img.cover-art {
-          width:  250px;
           height: auto;
         }
+
+
 
         .album-info {
             text-align: center;
@@ -18,5 +20,15 @@
             }
         }
      }
+
+     @include media-query($on-palm) {
+         .music-album {
+           width:  150px;
+           .album-info {
+            font-size: 0.7rem;
+           }
+         }
+     }
 }
+
 
