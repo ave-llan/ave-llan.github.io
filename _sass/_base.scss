@@ -157,6 +157,11 @@ pre {
         max-width:         calc(#{$narrow-content-width} - (#{$spacing-unit} * 2));
     }
 
+    &.max-width {
+        max-width: initial;
+        max-width: initial;
+    }
+
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
