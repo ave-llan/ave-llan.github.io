@@ -157,9 +157,9 @@ pre {
         max-width:         calc(#{$narrow-content-width} - (#{$spacing-unit} * 2));
     }
 
-    &.max-width {
-        max-width: initial;
-        max-width: initial;
+    &.wide {
+        max-width: -webkit-calc(#{$wide-content-width} - (#{$spacing-unit} * 2));
+        max-width:         calc(#{$wide-content-width} - (#{$spacing-unit} * 2));
     }
 
     margin-right: auto;
