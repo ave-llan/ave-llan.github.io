@@ -1,13 +1,19 @@
 /* Music Page content */
 
-.music-catalog a {
+.catalog a {
     font-size: 1.2em;
     padding-left: 1px;
     font-weight: 200;
+    &.secondary-link {
+      font-size: 1em;
+      padding-left: 0;
+      font-weight: default;
+      text-decoration: underline;
+    }
 }
 
 
-.music-catalog p {
+.catalog p {
     margin-bottom: 1.3em;
     // line-height: 1.5em;
 }
