@@ -1,0 +1,41 @@
+[
+    {
+        "title": "White Noise",
+        "author": "Don DeLillo",
+        "coverArtUrl": "/assets/book_covers/white-noise.jpg",
+        "genre": "fiction",
+        "link": "http://amzn.to/2kSUjCP"
+    },
+
+    {
+        "title": "Seeing Things",
+        "author": "Seamus Heaney",
+        "coverArtUrl": "/assets/book_covers/seeing-things.jpg",
+        "genre": "poetry",
+        "link": "http://amzn.to/2kT59Jd"
+    },
+
+    {
+        "title": "By Night in Chile",
+        "author": "Roberto Bolaño",
+        "coverArtUrl": "/assets/book_covers/by-night-in-chile.jpg",
+        "genre": "fiction",
+        "link": "http://amzn.to/2kSVdzc"
+    },
+
+    {
+        "title": "The Corrections",
+        "author": "Jonathan Franzen",
+        "coverArtUrl": "/assets/book_covers/the-corrections.jpg",
+        "genre": "fiction",
+        "link": "http://amzn.to/2kpKijx"
+    },
+
+    {
+        "title": "Thinking, Fast and Slow",
+        "author": "Daniel Kahneman",
+        "coverArtUrl": "/assets/book_covers/thinking-fast-and-slow.jpg",
+        "genre": "nonfiction",
+        "link": "http://amzn.to/2kP3GUW"
+    },
+]

@@ -3,7 +3,7 @@
      flex-wrap: wrap;
      justify-content: center;
 
-     .music-album {
+     .library-item {
         padding: 1rem;
         width:  250px;
 
@@ -22,7 +22,7 @@
      }
 
      @include media-query($on-palm) {
-         .music-album {
+         .library-item {
            width:  150px;
            .album-info {
             font-size: 0.7rem;

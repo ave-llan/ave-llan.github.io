@@ -11,7 +11,7 @@ order: 3
     {% assign concert_music = site.data.music_library | where:"genre","concert" %}
     {% for album in concert_music %}
 
-        <div class="music-album">
+        <div class="library-item">
             <img src="{{album.coverArtUrl}}" alt="{{ album.title }} cover art" class="cover-art">
             <div class="album-info">
                 <div class="title">
@@ -32,7 +32,7 @@ order: 3
     {% assign popular_music = site.data.music_library | where:"genre","popular" %}
     {% for album in popular_music | where:"genre","popular" %}
 
-        <div class="music-album">
+        <div class="library-item">
             <img src="{{album.coverArtUrl}}" alt="{{ album.title }} cover art" class="cover-art">
             <div class="album-info">
                 <div class="title">
@@ -48,4 +48,22 @@ order: 3
         
     {% endfor %}
 
-</div>  
+</div>
+
+<div class="wrapping-collection">
+    {% assign books = site.data.book_library %}
+    {% for book in books %}
+        <div class="library-item">
+            <a href="{{ book.link }}"><img src="{{book.coverArtUrl}}" alt="{{ book.title }} cover art" class="cover-art"></a>
+
+            <div class="album-info">
+                <div class="title">
+                    {{ book.title }}
+                </div>
+                <div class="artist">
+                    {{ book.author }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
