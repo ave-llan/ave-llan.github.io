@@ -9,8 +9,8 @@
     <div class="nav-container">
       <nav class="site-nav">
         {{ site.baseurl }}
-        {% for page_title in site.data.nav %}
-          <a class="page-link" href="/{{ page_title }}">{{ page_title | capitalize }}</a>
+        {% for page in site.data.nav %}
+          <a class="page-link" href="{{ page.link }}">{{ page.name | capitalize }}</a>
         {% endfor %}
       </nav>
     </div>

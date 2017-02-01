@@ -1,1 +1,22 @@
-["music", "projects", "library", "about"]
+[
+ {
+  "name": "music",
+  "link": "/music"
+ },
+ {
+  "name": "projects",
+  "link": "/projects"
+ },
+ {
+  "name": "library",
+  "link": "/library"
+ },
+ {
+  "name": "store",
+  "link": "http://store.johnleszczynski.com"
+ },
+ {
+  "name": "about",
+  "link": "/about"
+  }
+]
