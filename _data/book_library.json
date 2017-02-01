@@ -38,4 +38,12 @@
         "genre": "nonfiction",
         "link": "http://amzn.to/2kP3GUW"
     },
+
+    {
+        "title": "Flow",
+        "author": "Mihaly Csikszentmihalyi",
+        "coverArtUrl": "/assets/book_covers/flow.jpg",
+        "genre": "nonfiction",
+        "link": "http://amzn.to/2kT2HCb"
+    },
 ]
