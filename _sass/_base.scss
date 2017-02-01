@@ -222,3 +222,18 @@ pre {
   color: $brand-color;
   font-size: 0.9rem;
 }
+
+a.button {
+    background: lighten($brand-color, 10%);
+    padding: 11px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 0rem;
+    transition: background 0.1s ease;
+
+    &:hover {
+        background: $brand-color;
+    }
+}
