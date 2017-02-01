@@ -104,6 +104,12 @@
         "artist": "Berliner Philharmoniker / Simon Rattle",
         "genre": "concert"
     },
-    
+
+    {
+        "title": "Mingus Mingus Mingus Mingus Mingus ",
+        "coverArtUrl": "/assets/album_covers/mingus_mingus_mingus.jpg",
+        "artist": "Charles Mingus",
+        "genre": "popular"
+    },
 
 ]
