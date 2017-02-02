@@ -19,4 +19,12 @@ order: 5
   <p>
     I work at Google as a Software Engineer in Seattle.
   </p>
+  <p>
+    <ul>
+      {% for social_link in site.data.social_links %}
+          <li><a class="page-link" href="{{ social_link.link }}">{{ social_link.name | capitalize }}</a></li>
+      {% endfor %}
+    </ul>
+  </p>
+
 </div>
