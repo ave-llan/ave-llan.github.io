@@ -1,0 +1,8 @@
+$profile-image-width: $narrow-content-width * 0.6;
+
+#profile-image {
+  max-width: $profile-image-width;
+  border-radius: $profile-image-width / 2;
+  display: inline;
+  margin-top: 2rem;
+}

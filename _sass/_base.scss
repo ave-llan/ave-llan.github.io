@@ -162,6 +162,10 @@ pre {
         max-width:         calc(#{$wide-content-width} - (#{$spacing-unit} * 2));
     }
 
+    &.center-content {
+        text-align: center;
+    }
+
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
