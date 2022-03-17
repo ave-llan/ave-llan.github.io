@@ -1,11 +1,7 @@
 [
  {
   "name": "GitHub",
-  "link": "https://github.com/jrleszcz"
- },
- {
-  "name": "flickr",
-  "link": "https://www.flickr.com/photos/districtinroads/"
+  "link": "https://github.com/ave-llan"
  },
  {
   "name": "LinkedIn",
@@ -17,6 +13,10 @@
  },
  {
   "name": "Instagram",
-  "link": "https://www.instagram.com/jrleszcz/"
+  "link": "https://www.instagram.com/ave.llan"
+ },
+ {
+  "name": "flickr",
+  "link": "https://www.flickr.com/photos/districtinroads/"
  }
 ]
