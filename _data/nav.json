@@ -1,11 +1,11 @@
 [
  {
-  "name": "music",
-  "link": "/music"
- },
- {
   "name": "projects",
   "link": "/projects"
+ },
+ {
+  "name": "music",
+  "link": "/music"
  },
  {
   "name": "library",
