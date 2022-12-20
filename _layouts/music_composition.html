@@ -19,15 +19,18 @@ layout: default
     <div class="score">
         <h1 class="music-header">Score</h1>
         <p>
-            <a href="../sample-scores/scherzo-a-la-britten.pdf" target="_blank">Scherzo &agrave la Britten sample score (PDF) </a>
+            <a href="{{ page.score}}" target="_blank">{{ page.title}} sample score (PDF) </a>
         </p>
     </div>
     <div class="recording">
         <h1 class="music-header">Recording</h1>
-        <audio src="../audio/scherzo-a-la-britten.mp3" controls></audio>
+        <audio src=" {{ page.recording}}" controls></audio>
         <ul>
-            <li>US Navy Band, <a href="http://amzn.to/11bz6XA" target="_blank">Derivations</a> (2012) </li>
-            <li>Captain Brian Walden, <i>Conductor</i></li>
+            <li>
+                {{ page.recordingArtist}}, 
+                <a href="{{ page.recordingAlbumLink}}" target="_blank">
+                    {{ page.recordingAlbumName}}</a> ({{ page.recordingAlbumYear}}) 
+            </li>
         </ul>
     </div>
 </div>
