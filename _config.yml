@@ -19,3 +19,4 @@ github_username:  jrleszcz
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: true
