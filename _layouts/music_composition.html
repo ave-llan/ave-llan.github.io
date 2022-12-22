@@ -16,12 +16,15 @@ layout: default
 
     </div>
 
+    {% if page.score %}
     <div class="score">
         <h1 class="music-header">Score</h1>
         <p>
             <a href="{{ page.score}}" target="_blank">{{ page.title}} sample score (PDF) </a>
         </p>
     </div>
+    {% endif %}
+    
     <div class="recording">
         <h1 class="music-header">Recording</h1>
         {% if page.recording %}
