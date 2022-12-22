@@ -6,9 +6,7 @@ ensemble: Wind Ensemble
 score: ../assets/scores/the-builder.pdf
 purchaseLink: http://store.johnleszczynski.com/item/scherzo-a-la-britten
 recording: ../assets/music_recordings/the-builder.mp3
-recordingAlbumName: Derivations
-recordingArtist: Mercer Island High School Wind Ensemble (Parker Bixby, Conductor)
-
+recordingArtist: Mercer Island High School Wind Ensemble; (Parker Bixby, Conductor)
 ---
 The Builder gets its name from a poem by Pablo Neruda called "El Constructor" in the Spanish. It is a surreal description of the creative process, and describes the formation of an idea. Neruda launches his poem with an initial act of creation: "I chose my own illusion / from frozen salt, I made its likeness."
 <br><br>

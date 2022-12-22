@@ -7,9 +7,7 @@ score: link-to-score.pdf
 recording:
     
 ---
-<p>
   Some climbing plants such as cucumbers and passion flowers have a remarkable way of hoisting themselves up towards the sun using coiling tendrils. The plants send threadlike tendrils upwards which swirl around in a blind exploratory motion, the same way we might search in the dark for an overhead light switch pull chain. When a tendril touches something, it grabs on for support and then something physically changes in the tendril, and it begins to wind itself up. As the tendril coils and gets shorter, it pulls the rest of the plant up with it towards the sunlight, where it uses the extra light to produce more exploratory tendrils and continue the climb.
-</p>
-
+<br><br>
 
 Rhythmically, the piece is an obsessive exploration of groupings of five. The phrases are five measures long, the measures are five beats long, and these beats are further divided into quintuplets. Much of the musical development is accomplished by passing motives through the different nested layers of fives so that the same theme becomes faster or slower.
