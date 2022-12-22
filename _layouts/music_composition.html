@@ -27,9 +27,11 @@ layout: default
         <audio src=" {{ page.recording}}" controls></audio>
         <ul>
             <li>
-                {{ page.recordingArtist}}, 
+                {{ page.recordingArtist}}
+                {% if page.recordingAlbumYear %}, 
                 <a href="{{ page.recordingAlbumLink}}" target="_blank">
                     {{ page.recordingAlbumName}}</a> ({{ page.recordingAlbumYear}}) 
+                {% endif %}
             </li>
         </ul>
     </div>
