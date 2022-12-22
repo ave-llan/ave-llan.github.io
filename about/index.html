@@ -11,19 +11,20 @@ order: 5
 
 <div class="wrapper narrow">
   <p>
-    I'm a software engineer at Google, currently focused on mapping the world's buildings.
+    I'm a software engineer at Google, helping to map the world's buildings. 
   </p>
   <p>
-    I studied music composition and my music has been performed by groups such as the US Navy Band, Zzyzx Quartet, and the Akropolis Quintet.
+    Previously, I studied music composition, wrote music, and taught some music theory. My pieces have been performed by groups such as the US Navy Band, Zzyzx Quartet, and Akropolis Quintet.
   </p>
    <p>
-   I'm still interested in sound and am currently exploring field recording and different ways to visualize sound. Other interests include plants; particularly  oaks, madrones, and their habitats. 
+   I'm still interested in sound, and am currently exploring field recording and different ways to visualize sound.
   </p>
   <p>
-    <ul>
-      {% for social_link in site.data.social_links %}
-          <li><a class="page-link" href="{{ social_link.link }}">{{ social_link.name }}</a></li>
-      {% endfor %}
-    </ul>
+  {% for social_link in site.data.social_links %}
+    <a class="page-link" href="{{ social_link.link }}">
+      {{ social_link.name }}
+    </a>
+    {% unless forloop.last %} · {% endunless -%}
+  {% endfor %}
   </p>
 </div>

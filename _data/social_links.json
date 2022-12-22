@@ -1,5 +1,17 @@
 [
  {
+  "name": "eBird",
+  "link": "https://ebird.org/ebird/profile/MjcwNTYy"
+ },
+ {
+  "name": "iNaturalist",
+  "link": "https://www.inaturalist.org/people/ave-llan"
+ },
+ {
+  "name": "Instagram",
+  "link": "https://www.instagram.com/ave.llan"
+ },
+ {
   "name": "GitHub",
   "link": "https://github.com/ave-llan"
  },
@@ -7,16 +19,4 @@
   "name": "LinkedIn",
   "link": "https://www.linkedin.com/in/jrleszcz"
  },
- {
-  "name": "eBird",
-  "link": "https://ebird.org/ebird/profile/MjcwNTYy"
- },
- {
-  "name": "Instagram",
-  "link": "https://www.instagram.com/ave.llan"
- },
- {
-  "name": "flickr",
-  "link": "https://www.flickr.com/photos/districtinroads/"
- }
 ]
