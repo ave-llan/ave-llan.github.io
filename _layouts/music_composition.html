@@ -12,8 +12,7 @@ layout: default
             {{ content }}<span class="end-mark">◼</span>
         </p>
 
-        <a href="{{ page.purchaseLink}}" class="button">Purchase</a>
-
+         <a href="mailto:jrleszczynski@gmail.com?subject={{ page.title }} purchase request&body=I am interested in purchasing {{ page.title }}, please send instructions and current pricing. Thank you." class="button">Purchase</a>
     </div>
 
     {% if page.score %}
@@ -24,7 +23,7 @@ layout: default
         </p>
     </div>
     {% endif %}
-    
+
     <div class="recording">
         <h1 class="music-header">Recording</h1>
         {% if page.recording %}
