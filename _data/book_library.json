@@ -30,4 +30,13 @@
         "genre": "fiction",
         "link": "http://amzn.to/2kpKijx"
     },
+
+    {
+        "title": "Under the Volcano",
+        "author": "Malcolm Lowry",
+        "coverArtUrl": "/assets/book_covers/under-the-volcano.jpeg",
+        "genre": "fiction",
+        "link": "https://amzn.to/3I08nIE"
+    },
 ]
+
