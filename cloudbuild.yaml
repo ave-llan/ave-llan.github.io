@@ -1,0 +1,13 @@
+# Trigger to update johnleszczynski.com when changes are pushed to Github branch.
+steps:
+  - id: Update Permissions
+    name: 'gcr.io/cloud-builders/git'
+    entrypoint: 'chmod'
+    args: ['-v','-R', 'a+rw','.']
+  - id: Build Jekyll Site
+    name: 'jekyll/jekyll'
+    args: ['jekyll','build']
+    env: ['JEKYLL_ENV=production']
+  - name: gcr.io/cloud-builders/gsutil
+    args: ["-m", "rsync", "-r", "-c", "-d", "./_site", "gs://johnleszczynski-site"]
+timeout: '10m'
