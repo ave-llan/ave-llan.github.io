@@ -8,12 +8,16 @@ order: 1
 <div class="wrapper narrow">
   <div class="">
     <h1 class="music-header"></h1>
-    <div class="post-grid">
-      {% for post in site.posts %}
-        <div>
-          <a href="{{ post.url }}">{{ post.title }}</a>
+    {% for post in site.posts %}
+      <a href="{{ post.url }}" class="post-link-row">
+        <div class="post-grid-row-container">
+          <div>
+            {{ post.title }}
+          </div>
+          <div>
+            <time>{{ post.date | date: "%Y-%m-%e" }}</time>
+          </div>
         </div>
-        <time>{{ post.date | date: "%Y-%m-%e" }}</time>
-      {% endfor %}
-  </div>
+      </a>
+    {% endfor %}
 </div>

@@ -1,20 +1,15 @@
 /* Writing Page content */
 
-.post-grid {
-	display: grid;
-	grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    grid-template-columns: 1fr min-content;
+a.post-link-row {
+    color: $text-color;
+    &:hover {
+    color: lighten($brand-color, 15%);
+    text-decoration: none
+    }    
+}
 
-    a {
-        color: $text-color;
-	    &:hover {
-	    color: lighten($brand-color, 15%);
-	    text-decoration: none
-	    }    
-    }
-    time {
-    	white-space: pre;
-    	color: $text-color;
-    }
+.post-grid-row-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px
 }
