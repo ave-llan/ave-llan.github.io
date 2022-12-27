@@ -30,7 +30,7 @@ order: 3
     <!-- POPULAR MUSIC -->
     
     {% assign popular_music = site.data.music_library | where:"genre","popular" %}
-    {% for album in popular_music | where:"genre","popular" %}
+    {% for album in popular_music %}
 
         <div class="library-item">
             <img src="{{album.coverArtUrl}}" alt="{{ album.title }} cover art" class="cover-art">
