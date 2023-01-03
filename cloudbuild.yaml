@@ -8,6 +8,10 @@ steps:
     name: 'jekyll/jekyll'
     args: ['jekyll','build']
     env: ['JEKYLL_ENV=production']
-  - name: gcr.io/cloud-builders/gsutil
+  - id: Copy to bucket
+    name: gcr.io/cloud-builders/gsutil
     args: ["-m", "rsync", "-r", "-c", "-d", "./_site", "gs://johnleszczynski-site"]
+  - id: Deploy to App Engine
+    name: "gcr.io/cloud-builders/gcloud"
+    args: ["app", "deploy"]
 timeout: '10m'
