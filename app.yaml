@@ -52,4 +52,4 @@ handlers:
   upload: _site/.*
   require_matching_file: false
   secure: always
-  redirect_http_response_code: 404
+  redirect_http_response_code: 301
