@@ -5,20 +5,20 @@ layout: default
 <div class="wrapper wide">
   {% assign cantus_firmi = site.data.cantus_firmi  %}
   {% assign cf = cantus_firmi[0] %}
-  <!-- <counterpoint first-note="{{cf.firstNote}}" mode="{{cf.mode}}" max-length="{{cf.maxLength}}" notes="{{cf.notes}}"></counterpoint> -->
+  <counterpoint first-note="{{cf.firstNote}}" mode="{{cf.mode}}" max-length="{{cf.maxLength}}" notes="{{cf.notes}}"></counterpoint>
 </div>
 
-<div class="wrapper wide">
+<!-- <div class="wrapper wide">
   <spectrogram 
     src="/assets/audio/blackheaded-grosbeak-song.wav"
     sizeScale="2"
     showAxes="false">
   </spectrogram>
-</div>
+</div> -->
 
 
 <script type="text/javascript">
     {% include music-machine.js %}
-    {% include spectrogram.js %}
+    // {% include spectrogram.js %}
 </script>
 
