@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="wrapper narrow">
     <div class="fleuron">❧</div>
-    <div class="composition-title">
+    <div class="project-title">
         <h1>{{ page.title }}</h1>
         <p>for {{  page.ensemble }}</p>
     </div>
-    <div class="program-note">
+    <div class="project-description">
         <p>
             {{ content }}<span class="end-mark">◼</span>
         </p>
@@ -17,7 +17,7 @@ layout: default
 
     {% if page.score %}
     <div class="score">
-        <h1 class="music-header">Score</h1>
+        <h1 class="projects-header">Score</h1>
         <p>
             <a href="{{ page.score}}" target="_blank">{{ page.title}} sample score (PDF) </a>
         </p>
@@ -25,7 +25,7 @@ layout: default
     {% endif %}
 
     <div class="recording">
-        <h1 class="music-header">Recording</h1>
+        <h1 class="projects-header">Recording</h1>
         {% if page.recording %}
         <audio src=" {{ page.recording}}" controls></audio>
         {% endif %}
