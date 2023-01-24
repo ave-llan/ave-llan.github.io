@@ -7,6 +7,27 @@ order: 1
 
 <div class="wrapper narrow">
   <div class="projects">
+
+    <h1 class="projects-header"></h1>
+      <p>
+         <a href="./spectrogram">Web audio spectrogram</a> analyzes audio in the browser, creates a visualization of frequencies across time, and supports playback. 
+      </p>
+
+      <div class="wrapper wide">
+        <spectrogram 
+          src="/assets/audio/blackheaded-grosbeak-song.wav"
+          sizeScale="2"
+          width="540"
+          height="300"
+          showAxes="false">
+        </spectrogram>
+      </div>
+
+      <script type="text/javascript">
+          {% include spectrogram.js %}
+      </script>
+
+
     <h1 class="projects-header"></h1>
     <p>
        <a href="./cantus-firmus-guide">Cantus firmus guide</a> is a visual composition tool which helps you compose following the rules of species counterpoint.
@@ -18,13 +39,13 @@ order: 1
       <counterpoint first-note="{{cf.firstNote}}" mode="{{cf.mode}}" max-length="{{cf.maxLength}}" notes="{{cf.notes}}"></counterpoint>
     </div>
 
+    <script type="text/javascript">
+      {% include music-machine.js %}
+    </script>
+
+
     <h1 class="projects-header"></h1>
     <p>
       See <a href="https://github.com/ave-llan">github</a> for more.
     </p>
 </div>
-
-
-<script type="text/javascript">
-    {% include music-machine.js %}
-</script>

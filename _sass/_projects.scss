@@ -33,16 +33,29 @@ h1.projects-header {
 }
 
 div.project-title {
+  margin-bottom: 1em;
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
 
-  margin-bottom: 2.2em;
-  text-align: center;
+  p {
+    font-size: 0.9rem;
+    font-style: italic;
+    font-weight: 200;
+  }
+}
+
+div.project-title.music {
+ margin-bottom: 2.2em;
   letter-spacing: 0.1em;
+  text-align: center;
   h1 {
     font-size: 2rem;
     font-weight: 200;
     margin-bottom: 0;
   }
-
   p {
     // margin-left: 1.33em;
     font-size: 0.9rem;

@@ -1,0 +1,37 @@
+---
+layout: page
+title: Spectrogram
+order: 1
+---
+
+<div class="wrapper narrow">
+
+  <div class="project-title">
+    <h1>Web Audio Spectrogram</h1>
+  </div>
+
+  <div class="catalog">
+    <p>
+       Tool that analyzes audio in the browser useing the Web Audio API, creates a visualization of frequencies across time, and supports playback. 
+    </p>
+
+
+    <div class="wrapper wide">
+        <spectrogram 
+          src="/assets/audio/blackheaded-grosbeak-song.wav"
+          sizeScale="2"
+          width="540"
+          height="300"
+          showAxes="true">
+        </spectrogram>
+      </div>
+
+    <p>
+      For more details, see code and documentation on <a href="https://github.com/ave-llan/spectrogram">github</a>.
+    </p>
+
+</div>
+
+<script type="text/javascript">
+    {% include spectrogram.js %}
+</script>
