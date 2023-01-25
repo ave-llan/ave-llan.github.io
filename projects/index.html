@@ -13,15 +13,13 @@ order: 1
          <a href="/projects/spectrogram">Web audio spectrogram</a> analyzes audio in the browser, creates a visualization of frequencies across time, and supports playback. 
       </p>
 
-      <div class="wrapper wide">
-        <spectrogram 
-          src="/assets/audio/blackheaded-grosbeak-song.wav"
-          sizeScale="2"
-          width="540"
-          height="300"
-          showAxes="false">
-        </spectrogram>
-      </div>
+      <spectrogram 
+        src="/assets/audio/blackheaded-grosbeak-song.mp3"
+        sizeScale="2"
+        width="540"
+        height="300"
+        showAxes="false">
+      </spectrogram>
 
       <script type="text/javascript">
           {% include spectrogram.js %}
