@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hello from here"
+title:  "Beginning"
 date:   2023-02-03
 categories: writing
 ---
@@ -9,11 +9,11 @@ It is still dark, and rain pings softly on a metal chimney cap. The sound is car
 
 Hello, and thanks for reading. 
 
-Crossing that threshold from private to public was not so easy for me -- I am out of practice. But here I am. Through publishing, I'm looking for a focusing effect.  To be presented, a piece of work needs a frame and so becomes a thing, pulled out of an amorphous stream of ideas and incremental progress.
+Crossing that threshold from private to public was not so easy for me -- I am out of practice. But here I am. Through publishing, I'm looking for a focusing effect.  To be presented, a piece of work needs a frame. Pulled out of an amorphous stream of ideas and incremental progress, it becomes a thing.
 
-In this basement, I have filled a growing stack of notebooks with private writing. I've also spent many hours tinkering on various projects like this website, and most of all working slowly towards a recurring idea, of a visual art derived from sound, especially birdsong.  This could range from abstract generative art with sound as the seed, to pure representations of organic information that are also beautiful as marks on a page, even if a person does not know what they represent. Sound as a symbolic language, mysterious calligraphy, primitive and dream-like.
+In this basement, I have filled a growing stack of notebooks with private writing; spent many hours tinkering on various projects like this website; and most of all worked slowly towards recurring ideas of a visual art derived from sound, particularly birdsong.  The ideas range from abstract generative art with sound as the seed, to pure representations of organic information that are also beautiful as marks on a page, even if a person does not know what they represent. Sound as a symbolic language, mysterious calligraphy, primitive, or dream-like.
 
-I'm far from anything like that, but I have made progress. I made a tool to visualize sound as a spectrogram, which led me to learn more about sound itself and signal processing. I've been looking more closely at art, learning more about how to record sound, and planning trips to make recordings. Here I plan to share bits of progress, stories from those trips, field recordings, and hopefully one day some attempts at a visual sound art. Or whatever interests me at the time.
+I'm far from anything like that, but I have made some progress which I plan to share here, along with whatever interests me at the time.
 
-At some point while writing this, the rain stopped and darkness lifted to a dim gray sky. A hummingbird visits the feeder hung outside the window above my desk, and I wait for the first sounds of day. A distant towhee trills.
+At some point while writing this, the rain stopped and darkness lifted slightly, revealing a dim, gray morning outside the window above my desk. It is quiet, and I pause to listen for the first sound of day. After a moment, a distant towhee trills.
 
