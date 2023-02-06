@@ -13,10 +13,6 @@
   "link": "/music"
  },
  {
-  "name": "library",
-  "link": "/library"
- },
- {
   "name": "about",
   "link": "/about"
   }
