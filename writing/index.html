@@ -15,7 +15,7 @@ order: 1
             {{ post.title }}
           </div>
           <div>
-            <time>{{ post.date | date: "%Y-%m-%e" }}</time>
+            <time>{{ post.date | date_to_string }}</time>
           </div>
         </div>
       </a>
